@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav role="navigation" class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        
+        <div class="container-fluid"> 
+            <a href="/" class="navbar-brand">Flask Academy</a>
+            <ul class="navbar-nav d-none d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/guides">Guías</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/community">Comunidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/shop">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sign-in">Acceder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sign-up">Registrarse</a>
+                </li>
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control mr-2" type="search" placeholder="Buscar"/>
+                <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+
+        </div>
+    </nav>
+
+    <main class="container py-4">
+
+        <div class="row">
+
+            <div class="col col-12 col-md-6 d-flex flex-column">
+
+                <span class="h3 mb-4">Bienvenido, usuario</span>
+
+                <form class="mb-4">
+                    <input type="text" class="form-control mb-2" placeholder="Título"/>
+                    <textarea type="text" class="form-control mb-2" placeholder="Escribe algo aquí"></textarea>
+                    <button class="btn btn-primary" type="submit">Publicar</button>
+                </form>
+
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <div class="d-flex mb-2 align-items-center">
+                            <img src="profile.png" alt="User" width="36px" height="36px" class="rounded-circle mr-2">
+                            <div class="mr-auto">
+                                <span class="d-block font-weight-bold">Lautaro Pereyra</span>
+                                <span class="d-block text-muted small">@lautaropereyra</span>
+                            </div>
+                            <button class="btn btn-link">Más</button>
+                        </div>
+                        <hr/>
+                        <h4>Título del post</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam quisquam distinctio autem rem impedit eum eaque quibusdam assumenda fuga.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-link mr-2">Me gusta</button>
+                            <button class="btn btn-link mr-2">Comentarios</button>
+                            <button class="btn btn-link mr-auto">Compartir</button>
+                            <button class="btn btn-link">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="mx-auto btn btn-outline-dark">Cargar más</button>
+
+            </div>
+
+            <div class="col col-12 col-md-4">
+
+                <!-- Sidebar -->
+                <aside>
+                    <form class="d-flex flex-column">
+                        <input class="form-control mb-2" type="text" placeholder="Nombre"/>
+                        <input class="form-control mb-2" type="email" placeholder="Correo electrónico"/>
+                        <input class="form-control mb-2" type="password" placeholder="Contraseña"/>
+                        <button class="btn btn-primary" type="submit">Registrarse</button>
+                    </form>
+                </aside>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Flask Academy &copy; 2020
+        <a href="/privacy-cookies">Políticas de privacidad y cookies.</a>
+        <a rel="nofollow" target="_blank" href="https://facebook.com/flaskacademy">Facebook</a>
+        <a rel="nofollow" target="_blank" href="https://instagram.com/flaskacademy">Instagram</a>
+    </footer>
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</body>
+</html>
