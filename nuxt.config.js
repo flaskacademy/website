@@ -1,4 +1,5 @@
 export default {
     srcDir: 'src/',
-    components: true
+    components: true,
+    buildDir: 'dist'
 }
